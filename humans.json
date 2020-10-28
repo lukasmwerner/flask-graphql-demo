@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "5f9868d9619d43b960962c71"
+  },
+  "name": "Luke Skywalker",
+  "homePlanet": "Tatooine"
+},{
+  "_id": {
+    "$oid": "5f98a0747d80b7902f0ae106"
+  },
+  "name": "Han Solo",
+  "homePlanet": "Unknown"
+},{
+  "_id": {
+    "$oid": "5f98a0ddcb92042a483b8a64"
+  },
+  "name": "Darth Vader",
+  "homePlanet": "Tatooine"
+},{
+  "_id": {
+    "$oid": "5f98a0e37d80b7902f0ae108"
+  },
+  "name": "Leia Organa",
+  "homePlanet": "Alderaan"
+},{
+  "_id": {
+    "$oid": "5f98a4607d80b7902f0ae10d"
+  },
+  "name": "Poe Dameron",
+  "homePlanet": "Yavin 4"
+}]

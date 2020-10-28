@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5f9870b8619d43b960962c72"
+  },
+  "name": "R2-D2",
+  "function": "Argomech",
+  "ownerid": {
+    "$oid": "5f9868d9619d43b960962c71"
+  }
+},{
+  "_id": {
+    "$oid": "5f98a1017d80b7902f0ae109"
+  },
+  "name": "C3P0",
+  "function": "Protocol",
+  "ownerid": {
+    "$oid": "5f9868d9619d43b960962c71"
+  }
+},{
+  "_id": {
+    "$oid": "5f98a11a7d80b7902f0ae10a"
+  },
+  "name": "BB-8",
+  "ownerid": {
+    "$oid": "5f98a4607d80b7902f0ae10d"
+  },
+  "function": "Argomech"
+}]
