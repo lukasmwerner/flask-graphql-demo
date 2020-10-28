@@ -13,9 +13,11 @@ class Character(Interface):
     _id = String(description="The id of this character.")
     name = String(description="The name of this character.")
 
+
 class CharacterObject(ObjectType):
     class Meta:
         interfaces = (Character,)
+
 
 class Droid(ObjectType):
     class Meta:
@@ -40,9 +42,19 @@ class Query(ObjectType):
 
     greet = String(name=String(default_value="world"))
 
-    human = Field(Human, name=String(), id=String(), description="Find a human by either the name or the id.")
+    human = Field(
+        Human,
+        name=String(),
+        id=String(),
+        description="Find a human by either the name or the id.",
+    )
 
-    droid = Field(Droid, name=String(), id=String(), description="Find a droid by either the name or the id.")
+    droid = Field(
+        Droid,
+        name=String(),
+        id=String(),
+        description="Find a droid by either the name or the id.",
+    )
 
     def resolve_greet(root, info, name):
         return f"Hello, {name}!"
